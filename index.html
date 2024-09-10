@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Brochure Email</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        table {
+            max-width: 600px;
+            width: 100%;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-spacing: 0;
+            padding: 20px;
+        }
+        img {
+            max-width: 100%;
+            display: block;
+        }
+        .header {
+            text-align: center;
+            padding: 50px;
+        }
+        .header img {
+            width: 150px;
+        }
+        .text-and-image {
+            display: flex;
+            padding: 20px 0;
+        }
+        .text-and-image .text {
+            width: 60%;
+            padding-right: 20px;
+        }
+        .text-and-image .image {
+            width: 40%;
+        }
+        .text-and-image img {
+            border-radius: 50%;
+        }
+        .products {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 0;
+        }
+        .product {
+            text-align: center;
+            width: 30%;
+        }
+        .product img {
+            width: 100px;
+            height: 100px;
+        }
+        .product p {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        .footer {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer a {
+            display: inline-block;
+            margin: 10px 15px;
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .linkedin {
+            font-size: 14px;
+            padding: 10px;
+        }
+        .linkedin a {
+            color: #0077b5;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <table border="0" cellpadding="0" cellspacing="0">
+        <!-- Header with Company Logo -->
+        <tr>
+            <td class="header">
+                <img src="Header.png" alt="Company Logo">
+            </td>
+        </tr>
+
+        <!-- CEO Picture and Text -->
+        <tr>
+            <td class="text-and-image">
+                <div class="text">
+                    <h2>Welcome to Coral Innovations</h2>
+                    <p>
+                        At Coral Innovations, we are dedicated to bringing the latest in energy management 
+                        solutions to help businesses save energy, reduce costs, and contribute to a greener planet.
+                    </p>
+                </div>
+                <div class="image">
+                    <img src="Display pic.jpeg" alt="CEO Picture" width="120">
+                </div>
+            </td>
+        </tr>
+
+        <!-- Product Images and Names -->
+        <tr>
+            <td>
+                <div class="products">
+                    <div class="product">
+                        <img src="D:\Coral Innov\September\Photos\Smart switch.JPG" alt="Product 1">
+                        <p>Smart Switches</p>
+                    </div>
+                    <div class="product">
+                        <img src="D:\Coral Innov\September\Photos\Bijili Auditor.JPG" alt="Product 2">
+                        <p>Bijili Auditor</p>
+                    </div>
+                    <div class="product">
+                        <img src="product3_image_url" alt="Product 3">
+                        <p>Product 3 Name</p>
+                    </div>
+                </div>
+            </td>
+        </tr>
+
+        <!-- Footer with Contact Us and Buttons -->
+        <tr>
+            <td class="footer">
+                <a href="mailto:contact@company.com">Contact Us</a>
+                <a href="http://companywebsite.com">Visit Our Website</a>
+                <a href="http://yourapp.com">Download Our App</a>
+                <div class="linkedin">
+                    <p>Connect with us:</p>
+                    <p>
+                        CEO LinkedIn: <a href="https://www.linkedin.com/in/ceo-profile">CEO's Profile</a> |
+                        Tech Team Co-Founder: <a href="https://www.linkedin.com/in/vinay-a">Vinay A's Profile</a>
+                    </p>
+                </div>
+                <p>&copy; 2024 Coral Innovations</p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
